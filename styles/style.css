@@ -15,12 +15,16 @@ img {
 	border: 1px solid #dfe1e5;
 	height: 42px;
 }
-[type="submit"] {
-	/*display: block;*/
-	border-radius: 4px;
+.buttons {
+	display: block;
+	text-align: center;
 	position: relative;
 	top: 200px;
-	left: 490px;
+}
+[type="submit"] {
+	
+	border-radius: 4px;
+	position: relative;
 	background-color: #f2f2f2;
 	font-family: arial, sans-serif;
 	border: 1px solid #f2f2f2;
@@ -39,6 +43,13 @@ img {
 	color: #000000;
 	border-color: rgba(120,120,120,0.54);
 	cursor: pointer;
+}
+.header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 10px;
 }
 .footer {
 	border: 1px solid #f2f2f2;
@@ -68,6 +79,6 @@ a:hover {
 }
 .links {
 	display: inline;
-	padding: 2px 12px;
+	padding: 4px 16px;
 
 }
