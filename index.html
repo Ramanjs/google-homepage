@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 		<link href="styles/style.css" rel="stylesheet">
 		<title>Google</title>
 	</head>
 	<body>
-		<div class="header">
-			<div class="right">
-				<span class="links"><a href="#">Gmail</a></span>
-				<span class="links"><a href="#">Images</a></span>
-			</div>
-		</div>
-		<div>
-			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-			<div>
-				<input type="text" name="search-bar">
-				<div class="buttons">
-					<input type="submit" value="Google Search" name="search">
-					<input type="submit" value="I'm Feeling Lucky" name="lucky">
+		<div class="container-fluid">			
+			<div class="row fixed-top">
+				<div class="col">
+					<div class="clearfix">
+						
+						<span class="links float-right p-2 m-2"><a href="#">Gmail</a></span>
+						<span class="links float-right p-2 m-2"><a href="#">Images</a></span>
+						
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="footer">
-			<span class="links"><a href="#">India</a></span>
-			<hr>
-			<div class="left">
-				<span class="links"><a href="#">Advertising</a></span>
-				<span class="links"><a href="#">Business</a></span>
-				<span class="links"><a href="#">About</a></span>
-				<span class="links"><a href="#">How Search Works</a></span>
+			<div class="row">
+				<div class="col">
+					<img src="googlelogo_color_272x92dp.png" alt="google logo" class="mx-auto img-fluid m-5 d-block img-fluid">
+				</div>
 			</div>
-			<div class="right">
-				<span class="links"><a href="#">Privacy</a></span>
-				<span class="links"><a href="#">Terms</a></span>
-				<span class="links"><a href="#">Settings</a></span>
+			<div class="row">
+				<div class="col">
+					<input type="text" name="search-bar" class="mx-auto m-1 d-block rounded-lg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<input type="submit" value="Google Search" name="search" class="btn float-right m-2">
+				</div>
+				<div class="col-6">
+					<input type="submit" value="I'm Feeling Lucky" name="lucky" class="btn float-left m-2">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="fixed-bottom">
+						<span class="links"><a href="#">India</a></span>
+						<hr>
+						<div class="row">
+							<div class="col-6">
+								<div class="clearfix">
+									<span class="links float-left"><a href="#">Advertising</a></span>
+									<span class="links float-left"><a href="#">Business</a></span>
+									<span class="links float-left"><a href="#">About</a></span>
+									<span class="links float-left"><a href="#">How Search Works</a></span>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="clearfix">
+									<span class="links float-right"><a href="#">Privacy</a></span>
+									<span class="links float-right"><a href="#">Terms</a></span>
+									<span class="links float-right"><a href="#">Settings</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
