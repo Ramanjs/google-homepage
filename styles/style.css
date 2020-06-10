@@ -16,6 +16,7 @@ img {
 	top: 180px;*/
 	border: 1px solid #dfe1e5;
 	height: 42px;
+	outline: none;
 }
 /*.buttons {
 	display: block;
@@ -55,20 +56,15 @@ img {
 }*/
 .footer {
 	border: 1px solid #f2f2f2;
-	/*display: block;
-	position: fixed;
-	bottom: 0;
-	left: 0;
+	/*display: block;*/
+	/*position: fixed;
+	bottom: auto;*/
+	/*left: 0;
 	right: 0;*/
 	background-color: #f2f2f2;
 	line-height: 30px;
 }
-/*.left {
-	float: left;
-}
-.right {
-	float: right;
-}*/
+
 a {
 	color: #5F6368;
 	text-decoration: none;
@@ -83,7 +79,4 @@ a:hover {
 	display: inline;
 	padding: 4px 16px;
 
-}
-input[type="text"]{
-	outline: none;
 }
